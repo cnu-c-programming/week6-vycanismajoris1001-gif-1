@@ -16,9 +16,9 @@ int main() {
   int arr2[2][3] = {1,2,3,4};
   int arr3[2][3] = {{1,2},{4}};
 
-  printf_array(arr0);
-  printf_array(arr1);
-  printf_array(arr2);
-  printf_array(arr3);
+  print_array(arr0);
+  print_array(arr1);
+  print_array(arr2);
+  print_array(arr3);
 }
   
