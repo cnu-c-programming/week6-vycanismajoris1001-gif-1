@@ -12,7 +12,7 @@ int sum_2d_arr(int (*row)[3], int size) {
 }
 
 int main() {
-  int arr[2][3] = {1,2,3,4,5,6}
+  int arr[2][3] = {1,2,3,4,5,6};
 
   printf("%d\n", sum_2d_arr(arr,2));
 }
