@@ -6,6 +6,7 @@ void print_arr(int* p, int size) {
       printf("%d ", *(p + i));
   printf("\n");
   }
+}
 
 int main() {
   int arr[5] = {1,2,3,4,5};
