@@ -6,7 +6,7 @@ int main() {
   int(*p)[4];
 
   for (int i=0;i<2;i++) {
-     p = arr2++;
+     p = arr2[0];
      for (int j=0; j<4; j++) {
          printf("%d\n", *(*p + i));
      }
