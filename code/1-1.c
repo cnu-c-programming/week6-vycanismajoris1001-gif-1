@@ -6,16 +6,16 @@ int main() {
   int a=10, b=20, c=30, d=40, e=50;
   int* pointer_array[5] = {&a, &b, &c, &d, &e};
 
-  printf("sizeof(array_pointer): %zu\n", sizeof(array_pointer);
-  printf("sizeof(array_pointer): %zu\n", sizeof(pointer_array);
+  printf("sizeof(array_pointer): %zu\n", sizeof(array_pointer));
+  printf("sizeof(array_pointer): %zu\n", sizeof(pointer_array));
   printf("\n");
 
   for (int i=0;i<4;i++) {
-     printf("%p\n", (void*)(array_pointer + i);
+     printf("%p\n", (void*)(array_pointer + i));
   }
 printf("\n");
 for (int i=0;i<4;i++) {
-   printf("%p\n", (void*)(pointer_array + i);
+   printf("%p\n", (void*)(pointer_array + i));
    }
   return 0;
 }
