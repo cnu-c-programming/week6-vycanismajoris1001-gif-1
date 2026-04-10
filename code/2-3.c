@@ -13,3 +13,4 @@ int main() {
   int arr[2][3] = {1,2,3,4,5,6};
 
   print_2d_arr(&arr[0][0], 2, 3);
+}
