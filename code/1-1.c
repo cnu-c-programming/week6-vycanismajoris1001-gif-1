@@ -17,5 +17,6 @@ printf("\n");
 for (int i=0;i<4;i++) {
    printf("%p\n", (void*)(pointer_array + i);
    }
+  return 0;
 }
 
